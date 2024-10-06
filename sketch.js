@@ -1,4 +1,4 @@
-import canvasSketch from "canvas-sketch/lib/canvas-sketch.js";
+const canvasSketch = require("canvas-sketch");
 
 const settings = {
   dimensions: [2048, 2048],
@@ -6,7 +6,7 @@ const settings = {
 
 const sketch = () => {
   return ({ context, width, height }) => {
-    context.fillStyle = "white";
+    context.fillStyle = "orange";
     context.fillRect(0, 0, width, height);
   };
 };
