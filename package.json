@@ -11,5 +11,8 @@
   "description": "",
   "dependencies": {
     "canvas-sketch": "^0.7.7"
+  },
+  "devDependency": {
+    "@types/node": "^22.7.4"
   }
 }
